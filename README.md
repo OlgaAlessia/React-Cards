@@ -4,11 +4,7 @@ This exercise will give you practice writing your own custom hooks. We’ve prov
 
 ## **Step One: Read the Code**
 
-Start by downloading the app, and getting it set up:
-
-[react-cards-pokemon.zip](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f5fdeb39-70b3-4747-808b-f56447fabfdd/react-cards-pokemon.zip)
-
-The app uses two APIs, the Deck of Cards API and the Pokemon API, to generate different types of cards on the page.
+The app given uses two APIs, the Deck of Cards API and the Pokemon API, to generate different types of cards on the page.
 
 Play around with the app to get a sense for how it works. Draw out the component hierarchy in your pair and make sure you understand how all of the pieces fit together.
 
@@ -60,7 +56,6 @@ At the end of this process, our array in state for *PlayingCardList* should lo
 and our array in state for *PokeDex* should look like
 
 `[{ id, front, back, name, stats: [{ name, value }, ...] }, ... ]`.
-
 
 
 ## Available Scripts
